@@ -15,5 +15,3 @@ RUN apk add --no-cache \
     openssl \
     curl=${CURL_VERSION}
 
-ENTRYPOINT ["/usr/bin/curl"]
-CMD ["-h"]
